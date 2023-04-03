@@ -1,0 +1,45 @@
+.load-modal {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 25px;
+  background-color: #fff;
+  position: relative;
+  &__close-btn {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #353535;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+  }
+  &__form {
+    label {
+      display: block;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    input {
+      width: 300px;
+      height: 40px;
+      margin-top: 10px;
+      padding: 5px 15px;
+      background: #fff;
+      border: 1px solid #e2e2e2;
+      color: #353535;
+      border-radius: 4px;
+      font-size: 16px;
+      &:focus {
+        outline: none;
+      }
+    }
+    button {
+      margin-left: 20px;
+    }
+  }
+}

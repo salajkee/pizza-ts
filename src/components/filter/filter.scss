@@ -1,0 +1,42 @@
+.filter {
+  &__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &-amount {
+      display: block;
+      padding: 5px 10px;
+      font-size: 18px;
+      font-weight: 500;
+      color: #fff;
+      border-radius: 5px;
+      background-color: #8f8f8f;
+    }
+  }
+  &__list {
+    margin-top: 20px;
+  }
+  &__item-amount {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f3f2f1;
+  }
+  &__item-btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__bot-info {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    color: #70c05b;
+    span {
+      font-weight: bold;
+      color: #70c05b;
+      cursor: pointer;
+    }
+  }
+}
